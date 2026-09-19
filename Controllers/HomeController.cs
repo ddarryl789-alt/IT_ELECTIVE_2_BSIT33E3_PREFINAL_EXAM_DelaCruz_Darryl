@@ -140,6 +140,13 @@ namespace IT_ELECTIVE_2_BSIT33E3_PREFINAL_EXAM_DelaCruz_Darryl.Controllers
                     Number = 19,
                     QuestionText = "A user requests /Student/999, but Student 999 does not exist. What is the appropriate response?",
                     Answer = "Not Found (404)."
+                },
+
+                new Question
+                {
+                    Number = 20,
+                    QuestionText = "A Student already belongs to Section A for a subject, and the application attempts to assign the same student to Section A again. What is the primary concern?",
+                    Answer = "Data integrity."
                 }
             };
 
