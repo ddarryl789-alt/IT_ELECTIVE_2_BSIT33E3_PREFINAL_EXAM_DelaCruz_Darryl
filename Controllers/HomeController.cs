@@ -133,6 +133,13 @@ namespace IT_ELECTIVE_2_BSIT33E3_PREFINAL_EXAM_DelaCruz_Darryl.Controllers
                     Number = 18,
                     QuestionText = "Which middleware can be used for centralized exception handling in ASP.NET Core?",
                     Answer = "UseExceptionHandler()."
+                },
+
+                new Question
+                {
+                    Number = 19,
+                    QuestionText = "A user requests /Student/999, but Student 999 does not exist. What is the appropriate response?",
+                    Answer = "Not Found (404)."
                 }
             };
 
@@ -144,4 +151,4 @@ namespace IT_ELECTIVE_2_BSIT33E3_PREFINAL_EXAM_DelaCruz_Darryl.Controllers
             return View();
         }
     }
-}c
+}
