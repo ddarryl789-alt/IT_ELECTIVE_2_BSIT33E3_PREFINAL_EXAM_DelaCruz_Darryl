@@ -98,6 +98,13 @@ namespace IT_ELECTIVE_2_BSIT33E3_PREFINAL_EXAM_DelaCruz_Darryl.Controllers
                     Number = 13,
                     QuestionText = "Which validation occurs in the browser before the request is sent to the server?",
                     Answer = "Client-side validation."
+                },
+
+                new Question
+                {
+                    Number = 14,
+                    QuestionText = "Why is server-side validation still necessary even if client-side validation exists?",
+                    Answer = "Client-side validation can be bypassed."
                 }
             };
 
