@@ -49,6 +49,13 @@ namespace IT_ELECTIVE_2_BSIT33E3_PREFINAL_EXAM_DelaCruz_Darryl.Controllers
                     Number = 6,
                     QuestionText = "What is the purpose of a connection string?",
                     Answer = "It provides the information needed for the application to connect to the database."
+                },
+
+                new Question
+                {
+                    Number = 7,
+                    QuestionText = "What is a foreign key used for in a relational database?",
+                    Answer = "It establishes a relationship between records in two tables."
                 }
             };
 
