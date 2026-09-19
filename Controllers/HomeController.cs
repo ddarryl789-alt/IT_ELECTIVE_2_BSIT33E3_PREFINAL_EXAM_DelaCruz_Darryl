@@ -77,6 +77,13 @@ namespace IT_ELECTIVE_2_BSIT33E3_PREFINAL_EXAM_DelaCruz_Darryl.Controllers
                     Number = 10,
                     QuestionText = "What does .Include() generally allow Entity Framework Core to do?",
                     Answer = "Load related Section data together with Students."
+                },
+
+                new Question
+                {
+                    Number = 11,
+                    QuestionText = "Why might a ViewModel be used when displaying Student and Section information?",
+                    Answer = "To combine or shape the data specifically needed by the view."
                 }
             };
 
