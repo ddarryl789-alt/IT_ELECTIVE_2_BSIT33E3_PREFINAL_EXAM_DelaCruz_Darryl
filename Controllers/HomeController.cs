@@ -63,6 +63,13 @@ namespace IT_ELECTIVE_2_BSIT33E3_PREFINAL_EXAM_DelaCruz_Darryl.Controllers
                     Number = 8,
                     QuestionText = "In the following example, what is SectionId? public int SectionId { get; set; } public Section Section { get; set; }",
                     Answer = "Foreign key referencing Section."
+                },
+
+                new Question
+                {
+                    Number = 9,
+                    QuestionText = "What is the purpose of a navigation property such as public Section Section { get; set; }?",
+                    Answer = "It represents a relationship to another entity."
                 }
             };
 
