@@ -91,6 +91,13 @@ namespace IT_ELECTIVE_2_BSIT33E3_PREFINAL_EXAM_DelaCruz_Darryl.Controllers
                     Number = 12,
                     QuestionText = "What is the benefit of the query var students = _context.Students.Include(s => s.Section).ToList();?",
                     Answer = "It loads the related Section navigation property together with the Students."
+                },
+
+                new Question
+                {
+                    Number = 13,
+                    QuestionText = "Which validation occurs in the browser before the request is sent to the server?",
+                    Answer = "Client-side validation."
                 }
             };
 
