@@ -1,28 +1,35 @@
-    using IT_ELECTIVE_2_BSIT33E3_PREFINAL_EXAM_DelaCruz_Darryl.Models;
-    using Microsoft.AspNetCore.Mvc;
+using IT_ELECTIVE_2_BSIT33E3_PREFINAL_EXAM_DelaCruz_Darryl.Models;
+using Microsoft.AspNetCore.Mvc;
 
-    namespace IT_ELECTIVE_2_BSIT33E3_PREFINAL_EXAM_DelaCruz_Darryl.Controllers
+namespace IT_ELECTIVE_2_BSIT33E3_PREFINAL_EXAM_DelaCruz_Darryl.Controllers
+{
+    public class HomeController : Controller
     {
-        public class HomeController : Controller
+        public IActionResult Index()
         {
-            public IActionResult Index()
+            var questions = new List<Question>
             {
-                var questions = new List<Question>
+                new Question
                 {
-                    new Question
-                    {
-                        Number = 1,
-                        QuestionText = "What is the main problem solved by using a database instead of an in-memory collection?",
-                        Answer = "It allows data to persist after the application stops."
-                    }
-                };
+                    Number = 1,
+                    QuestionText = "What is the main problem solved by using a database instead of an in-memory collection?",
+                    Answer = "It allows data to persist after the application stops."
+                },
 
-                return View(questions);
-            }
+                new Question
+                {
+                    Number = 2,
+                    QuestionText = "Which approach is being used when an existing database is used to generate EF Core entity classes?",
+                    Answer = "Database-First."
+                }
+            };
 
-            public IActionResult Privacy()
-            {
-                return View();
-            }
+            return View(questions);
+        }
+
+        public IActionResult Privacy()
+        {
+            return View();
         }
     }
+}
