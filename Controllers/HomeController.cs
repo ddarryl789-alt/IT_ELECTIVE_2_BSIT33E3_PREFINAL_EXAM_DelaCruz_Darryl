@@ -33,29 +33,36 @@ namespace IT_ELECTIVE_2_BSIT33E3_PREFINAL_EXAM_DelaCruz_Darryl.Controllers
                 new Question
                 {
                     Number = 4,
-                    QuestionText = "What component in Entity Framework Core communicates with the database?",
+                    QuestionText = "Which EF Core component is primarily responsible for communicating with the database?",
                     Answer = "DbContext."
                 },
 
                 new Question
                 {
                     Number = 5,
-                    QuestionText = "What command generates EF Core models and DbContext from an existing database?",
-                    Answer = "dotnet ef dbcontext scaffold \"ConnectionString\" Microsoft.EntityFrameworkCore.SqlServer -o Models"
+                    QuestionText = "What does the following command primarily do? dotnet ef dbcontext scaffold \"ConnectionString\" Microsoft.EntityFrameworkCore.SqlServer -o Models",
+                    Answer = "Generates EF Core models and a DbContext from an existing database."
                 },
 
                 new Question
                 {
                     Number = 6,
-                    QuestionText = "What is the purpose of a connection string?",
-                    Answer = "It provides the information needed for the application to connect to the database."
+                    QuestionText = "Where is a database connection string commonly stored in an ASP.NET Core MVC application?",
+                    Answer = "appsettings.json."
                 },
 
                 new Question
                 {
                     Number = 7,
-                    QuestionText = "What is a foreign key used for in a relational database?",
-                    Answer = "It establishes a relationship between records in two tables."
+                    QuestionText = "A Student belongs to exactly one Section, while a Section can contain many students. What type of relationship is this?",
+                    Answer = "One-to-Many."
+                },
+
+                new Question
+                {
+                    Number = 8,
+                    QuestionText = "In the following example, what is SectionId? public int SectionId { get; set; } public Section Section { get; set; }",
+                    Answer = "Foreign key referencing Section."
                 }
             };
 
