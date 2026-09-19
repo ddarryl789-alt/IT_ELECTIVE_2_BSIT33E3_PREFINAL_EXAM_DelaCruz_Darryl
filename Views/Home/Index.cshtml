@@ -1,0 +1,20 @@
+﻿@model List<IT_ELECTIVE_2_BSIT33E3_PREFINAL_EXAM_DelaCruz_Darryl.Models.Question>
+
+<h1>IT Elective 2 – Prefinals Examination</h1>
+
+<h3>Darryl Andrei M. Dela Cruz</h3>
+<h4>BSIT33E3</h4>
+
+<hr />
+
+@foreach (var question in Model)
+{
+    <h3>Question @question.Number</h3>
+
+    <p>@question.QuestionText</p>
+
+    <strong>Answer:</strong>
+    <p>@question.Answer</p>
+
+    <hr />
+}
