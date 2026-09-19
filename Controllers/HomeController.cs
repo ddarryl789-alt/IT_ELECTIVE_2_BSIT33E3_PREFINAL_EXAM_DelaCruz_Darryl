@@ -35,6 +35,13 @@ namespace IT_ELECTIVE_2_BSIT33E3_PREFINAL_EXAM_DelaCruz_Darryl.Controllers
                     Number = 4,
                     QuestionText = "What component in Entity Framework Core communicates with the database?",
                     Answer = "DbContext."
+                },
+
+                new Question
+                {
+                    Number = 5,
+                    QuestionText = "What command generates EF Core models and DbContext from an existing database?",
+                    Answer = "dotnet ef dbcontext scaffold \"ConnectionString\" Microsoft.EntityFrameworkCore.SqlServer -o Models"
                 }
             };
 
