@@ -126,6 +126,13 @@ namespace IT_ELECTIVE_2_BSIT33E3_PREFINAL_EXAM_DelaCruz_Darryl.Controllers
                     Number = 17,
                     QuestionText = "What is the purpose of try...catch in a controller?",
                     Answer = "To catch and handle exceptions during execution."
+                },
+
+                new Question
+                {
+                    Number = 18,
+                    QuestionText = "Which middleware can be used for centralized exception handling in ASP.NET Core?",
+                    Answer = "UseExceptionHandler()."
                 }
             };
 
@@ -137,4 +144,4 @@ namespace IT_ELECTIVE_2_BSIT33E3_PREFINAL_EXAM_DelaCruz_Darryl.Controllers
             return View();
         }
     }
-}
+}c
