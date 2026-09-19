@@ -105,6 +105,13 @@ namespace IT_ELECTIVE_2_BSIT33E3_PREFINAL_EXAM_DelaCruz_Darryl.Controllers
                     Number = 14,
                     QuestionText = "Why is server-side validation still necessary even if client-side validation exists?",
                     Answer = "Client-side validation can be bypassed."
+                },
+
+                new Question
+                {
+                    Number = 15,
+                    QuestionText = "A school requires every Student Number to be unique. Which rule should be applied?",
+                    Answer = "Unique."
                 }
             };
 
