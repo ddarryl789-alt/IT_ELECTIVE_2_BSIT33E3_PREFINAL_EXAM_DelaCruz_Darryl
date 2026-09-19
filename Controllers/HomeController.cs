@@ -42,6 +42,13 @@ namespace IT_ELECTIVE_2_BSIT33E3_PREFINAL_EXAM_DelaCruz_Darryl.Controllers
                     Number = 5,
                     QuestionText = "What command generates EF Core models and DbContext from an existing database?",
                     Answer = "dotnet ef dbcontext scaffold \"ConnectionString\" Microsoft.EntityFrameworkCore.SqlServer -o Models"
+                },
+
+                new Question
+                {
+                    Number = 6,
+                    QuestionText = "What is the purpose of a connection string?",
+                    Answer = "It provides the information needed for the application to connect to the database."
                 }
             };
 
