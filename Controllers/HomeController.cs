@@ -119,6 +119,13 @@ namespace IT_ELECTIVE_2_BSIT33E3_PREFINAL_EXAM_DelaCruz_Darryl.Controllers
                     Number = 16,
                     QuestionText = "What is the best reason for adding a database-level unique constraint on StudentNumber?",
                     Answer = "It protects data integrity even if application validation is bypassed."
+                },
+
+                new Question
+                {
+                    Number = 17,
+                    QuestionText = "What is the purpose of try...catch in a controller?",
+                    Answer = "To catch and handle exceptions during execution."
                 }
             };
 
