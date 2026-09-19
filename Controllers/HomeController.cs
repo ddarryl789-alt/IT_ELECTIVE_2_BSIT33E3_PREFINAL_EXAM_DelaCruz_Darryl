@@ -112,6 +112,13 @@ namespace IT_ELECTIVE_2_BSIT33E3_PREFINAL_EXAM_DelaCruz_Darryl.Controllers
                     Number = 15,
                     QuestionText = "A school requires every Student Number to be unique. Which rule should be applied?",
                     Answer = "Unique."
+                },
+
+                new Question
+                {
+                    Number = 16,
+                    QuestionText = "What is the best reason for adding a database-level unique constraint on StudentNumber?",
+                    Answer = "It protects data integrity even if application validation is bypassed."
                 }
             };
 
