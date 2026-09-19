@@ -28,6 +28,13 @@ namespace IT_ELECTIVE_2_BSIT33E3_PREFINAL_EXAM_DelaCruz_Darryl.Controllers
                     Number = 3,
                     QuestionText = "What is the primary purpose of Entity Framework Core?",
                     Answer = "To map objects in code to relational database data."
+                },
+
+                new Question
+                {
+                    Number = 4,
+                    QuestionText = "What component in Entity Framework Core communicates with the database?",
+                    Answer = "DbContext."
                 }
             };
 
