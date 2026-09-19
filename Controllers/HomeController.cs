@@ -84,6 +84,13 @@ namespace IT_ELECTIVE_2_BSIT33E3_PREFINAL_EXAM_DelaCruz_Darryl.Controllers
                     Number = 11,
                     QuestionText = "Why might a ViewModel be used when displaying Student and Section information?",
                     Answer = "To combine or shape the data specifically needed by the view."
+                },
+
+                new Question
+                {
+                    Number = 12,
+                    QuestionText = "What is the benefit of the query var students = _context.Students.Include(s => s.Section).ToList();?",
+                    Answer = "It loads the related Section navigation property together with the Students."
                 }
             };
 
